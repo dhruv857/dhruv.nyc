@@ -35,7 +35,7 @@
 
         /*
          * Detect mobile device.
-         * Source: http://www.abeautifulsite.net/detecting-mobile-devices-with-javascript/
+         * Source: https://www.abeautifulsite.net/detecting-mobile-devices-with-javascript/
          */
 
         var isMobile = {

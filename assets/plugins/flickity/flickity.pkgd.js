@@ -5,7 +5,7 @@
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * http://flickity.metafizzy.co
+ * https://flickity.metafizzy.co
  * Copyright 2016 Metafizzy
  */
 
@@ -354,7 +354,7 @@ function getStyle( elem ) {
   if ( !style ) {
     logError( 'Style returned ' + style +
       '. Are you running this code in a hidden iframe on Firefox? ' +
-      'See http://bit.ly/getsizebug1' );
+      'See https://bit.ly/getsizebug1' );
   }
   return style;
 }
@@ -710,7 +710,7 @@ utils.docReady = function( callback ) {
 
 // ----- htmlInit ----- //
 
-// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+// https://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
 utils.toDashed = function( str ) {
   return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
     return $1 + '-' + $2;
@@ -3126,7 +3126,7 @@ return TapListener;
 }( window, function factory( window, Flickity, TapListener, utils ) {
 'use strict';
 
-var svgURI = 'http://www.w3.org/2000/svg';
+var svgURI = 'https://www.w3.org/2000/svg';
 
 // -------------------------- PrevNextButton -------------------------- //
 
@@ -3148,7 +3148,7 @@ PrevNextButton.prototype._create = function() {
   var element = this.element = document.createElement('button');
   element.className = 'flickity-prev-next-button';
   element.className += this.isPrevious ? ' previous' : ' next';
-  // prevent button from submitting form http://stackoverflow.com/a/10836076/182183
+  // prevent button from submitting form https://stackoverflow.com/a/10836076/182183
   element.setAttribute( 'type', 'button' );
   // init as disabled
   this.disable();
@@ -4016,7 +4016,7 @@ return Flickity;
  * Licensed GPLv3 for open source use
  * or Flickity Commercial License for commercial use
  *
- * http://flickity.metafizzy.co
+ * https://flickity.metafizzy.co
  * Copyright 2016 Metafizzy
  */
 
