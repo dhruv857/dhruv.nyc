@@ -38,33 +38,41 @@
     <script src="assets/plugins/modernizr/modernizr.min.js"></script>
     <![endif]-->
     <!-- Start of Async Drift Code -->
-<script>
-"use strict";
+    <script>
+    "use strict";
 
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('i3nhagsbtrrd');
-</script>
-<!-- End of Async Drift Code -->
+    !function() {
+    var t = window.driftt = window.drift = window.driftt || [];
+    if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+        t.factory = function(e) {
+        return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+        };
+        }, t.methods.forEach(function(e) {
+        t[e] = t.factory(e);
+        }), t.load = function(t) {
+        var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+        o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+        var i = document.getElementsByTagName("script")[0];
+        i.parentNode.insertBefore(o, i);
+        };
+    }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('i3nhagsbtrrd');
+    </script>
+    <!-- End of Async Drift Code -->
+    
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TMW5VM5');</script>
+    <!-- End Google Tag Manager -->
 
 <!-- start Mixpanel --><script type="text/javascript">(function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
 0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
@@ -119,7 +127,10 @@ mixpanel.init("50032541fa3d1b1f7998ac6f40346030");</script><!-- end Mixpanel -->
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TMW5VM5"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <!-- NAV TRIGGER START -->
     <div class="nav-trigger nav-trigger-open">
         <div class="nav-toggle">
